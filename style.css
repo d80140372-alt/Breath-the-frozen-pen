@@ -1,0 +1,732 @@
+.parent {
+  padding-top: 90px;
+  position: relative;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.aura {
+  bottom: 0;
+  padding: 340px 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 10px gold;
+  left: 50%;
+  position: absolute;
+}
+
+.aura:nth-child(1) {
+  margin-left: -5px;
+  transform: rotate(1deg);
+  -webkit-animation: rotate-1 2s linear infinite 0.2s;
+          animation: rotate-1 2s linear infinite 0.2s;
+}
+@-webkit-keyframes rotate-1 {
+  from {
+    transform: rotate(1deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(1deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-1 {
+  from {
+    transform: rotate(1deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(1deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(2) {
+  margin-left: -10px;
+  transform: rotate(2deg);
+  -webkit-animation: rotate-2 2s linear infinite 0.4s;
+          animation: rotate-2 2s linear infinite 0.4s;
+}
+@-webkit-keyframes rotate-2 {
+  from {
+    transform: rotate(2deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(2deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-2 {
+  from {
+    transform: rotate(2deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(2deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(3) {
+  margin-left: -15px;
+  transform: rotate(3deg);
+  -webkit-animation: rotate-3 2s linear infinite 0.6s;
+          animation: rotate-3 2s linear infinite 0.6s;
+}
+@-webkit-keyframes rotate-3 {
+  from {
+    transform: rotate(3deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(3deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-3 {
+  from {
+    transform: rotate(3deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(3deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(4) {
+  margin-left: -20px;
+  transform: rotate(4deg);
+  -webkit-animation: rotate-4 2s linear infinite 0.8s;
+          animation: rotate-4 2s linear infinite 0.8s;
+}
+@-webkit-keyframes rotate-4 {
+  from {
+    transform: rotate(4deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(4deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-4 {
+  from {
+    transform: rotate(4deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(4deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(5) {
+  margin-left: -25px;
+  transform: rotate(5deg);
+  -webkit-animation: rotate-5 2s linear infinite 1s;
+          animation: rotate-5 2s linear infinite 1s;
+}
+@-webkit-keyframes rotate-5 {
+  from {
+    transform: rotate(5deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(5deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-5 {
+  from {
+    transform: rotate(5deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(5deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(6) {
+  margin-left: -30px;
+  transform: rotate(6deg);
+  -webkit-animation: rotate-6 2s linear infinite 1.2s;
+          animation: rotate-6 2s linear infinite 1.2s;
+}
+@-webkit-keyframes rotate-6 {
+  from {
+    transform: rotate(6deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(6deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-6 {
+  from {
+    transform: rotate(6deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(6deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(7) {
+  margin-left: -35px;
+  transform: rotate(7deg);
+  -webkit-animation: rotate-7 2s linear infinite 1.4s;
+          animation: rotate-7 2s linear infinite 1.4s;
+}
+@-webkit-keyframes rotate-7 {
+  from {
+    transform: rotate(7deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(7deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-7 {
+  from {
+    transform: rotate(7deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(7deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(8) {
+  margin-left: -40px;
+  transform: rotate(8deg);
+  -webkit-animation: rotate-8 2s linear infinite 1.6s;
+          animation: rotate-8 2s linear infinite 1.6s;
+}
+@-webkit-keyframes rotate-8 {
+  from {
+    transform: rotate(8deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(8deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-8 {
+  from {
+    transform: rotate(8deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(8deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(9) {
+  margin-left: -45px;
+  transform: rotate(9deg);
+  -webkit-animation: rotate-9 2s linear infinite 1.8s;
+          animation: rotate-9 2s linear infinite 1.8s;
+}
+@-webkit-keyframes rotate-9 {
+  from {
+    transform: rotate(9deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(9deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-9 {
+  from {
+    transform: rotate(9deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(9deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(10) {
+  margin-left: -50px;
+  transform: rotate(10deg);
+  -webkit-animation: rotate-10 2s linear infinite 2s;
+          animation: rotate-10 2s linear infinite 2s;
+}
+@-webkit-keyframes rotate-10 {
+  from {
+    transform: rotate(10deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(10deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-10 {
+  from {
+    transform: rotate(10deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(10deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(11) {
+  margin-left: -55px;
+  transform: rotate(11deg);
+  -webkit-animation: rotate-11 2s linear infinite 2.2s;
+          animation: rotate-11 2s linear infinite 2.2s;
+}
+@-webkit-keyframes rotate-11 {
+  from {
+    transform: rotate(11deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(11deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-11 {
+  from {
+    transform: rotate(11deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(11deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(12) {
+  margin-left: -60px;
+  transform: rotate(12deg);
+  -webkit-animation: rotate-12 2s linear infinite 2.4s;
+          animation: rotate-12 2s linear infinite 2.4s;
+}
+@-webkit-keyframes rotate-12 {
+  from {
+    transform: rotate(12deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(12deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-12 {
+  from {
+    transform: rotate(12deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(12deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(13) {
+  margin-left: -65px;
+  transform: rotate(13deg);
+  -webkit-animation: rotate-13 2s linear infinite 2.6s;
+          animation: rotate-13 2s linear infinite 2.6s;
+}
+@-webkit-keyframes rotate-13 {
+  from {
+    transform: rotate(13deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(13deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-13 {
+  from {
+    transform: rotate(13deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(13deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(14) {
+  margin-left: -70px;
+  transform: rotate(14deg);
+  -webkit-animation: rotate-14 2s linear infinite 2.8s;
+          animation: rotate-14 2s linear infinite 2.8s;
+}
+@-webkit-keyframes rotate-14 {
+  from {
+    transform: rotate(14deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(14deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-14 {
+  from {
+    transform: rotate(14deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(14deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(15) {
+  margin-left: -75px;
+  transform: rotate(3deg);
+  -webkit-animation: rotate-15 2s linear infinite 3s;
+          animation: rotate-15 2s linear infinite 3s;
+}
+@-webkit-keyframes rotate-15 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-15 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(16) {
+  margin-left: -80px;
+  transform: rotate(2.2deg);
+  -webkit-animation: rotate-16 2s linear infinite 3.2s;
+          animation: rotate-16 2s linear infinite 3.2s;
+}
+@-webkit-keyframes rotate-16 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-16 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(17) {
+  margin-left: -85px;
+  transform: rotate(1.4deg);
+  -webkit-animation: rotate-17 2s linear infinite 3.4s;
+          animation: rotate-17 2s linear infinite 3.4s;
+}
+@-webkit-keyframes rotate-17 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-17 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(18) {
+  margin-left: -90px;
+  transform: rotate(0.6deg);
+  -webkit-animation: rotate-18 2s linear infinite 3.6s;
+          animation: rotate-18 2s linear infinite 3.6s;
+}
+@-webkit-keyframes rotate-18 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-18 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(19) {
+  margin-left: -95px;
+  transform: rotate(-0.2deg);
+  -webkit-animation: rotate-19 2s linear infinite 3.8s;
+          animation: rotate-19 2s linear infinite 3.8s;
+}
+@-webkit-keyframes rotate-19 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-19 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(20) {
+  margin-left: -100px;
+  transform: rotate(-1deg);
+  -webkit-animation: rotate-20 2s linear infinite 4s;
+          animation: rotate-20 2s linear infinite 4s;
+}
+@-webkit-keyframes rotate-20 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-20 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(21) {
+  margin-left: -105px;
+  transform: rotate(-1.8deg);
+  -webkit-animation: rotate-21 2s linear infinite 4.2s;
+          animation: rotate-21 2s linear infinite 4.2s;
+}
+@-webkit-keyframes rotate-21 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-21 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(22) {
+  margin-left: -110px;
+  transform: rotate(-2.6deg);
+  -webkit-animation: rotate-22 2s linear infinite 4.4s;
+          animation: rotate-22 2s linear infinite 4.4s;
+}
+@-webkit-keyframes rotate-22 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-22 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(23) {
+  margin-left: -115px;
+  transform: rotate(-3.4deg);
+  -webkit-animation: rotate-23 2s linear infinite 4.6s;
+          animation: rotate-23 2s linear infinite 4.6s;
+}
+@-webkit-keyframes rotate-23 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-23 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(24) {
+  margin-left: -120px;
+  transform: rotate(-4.2deg);
+  -webkit-animation: rotate-24 2s linear infinite 4.8s;
+          animation: rotate-24 2s linear infinite 4.8s;
+}
+@-webkit-keyframes rotate-24 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-24 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(25) {
+  margin-left: -125px;
+  transform: rotate(-5deg);
+  -webkit-animation: rotate-25 2s linear infinite 5s;
+          animation: rotate-25 2s linear infinite 5s;
+}
+@-webkit-keyframes rotate-25 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-25 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(26) {
+  margin-left: -130px;
+  transform: rotate(-5.8deg);
+  -webkit-animation: rotate-26 2s linear infinite 5.2s;
+          animation: rotate-26 2s linear infinite 5.2s;
+}
+@-webkit-keyframes rotate-26 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-26 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(27) {
+  margin-left: -135px;
+  transform: rotate(-6.6deg);
+  -webkit-animation: rotate-27 2s linear infinite 5.4s;
+          animation: rotate-27 2s linear infinite 5.4s;
+}
+@-webkit-keyframes rotate-27 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-27 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(28) {
+  margin-left: -140px;
+  transform: rotate(-7.4deg);
+  -webkit-animation: rotate-28 2s linear infinite 5.6s;
+          animation: rotate-28 2s linear infinite 5.6s;
+}
+@-webkit-keyframes rotate-28 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-28 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(29) {
+  margin-left: -145px;
+  transform: rotate(-8.2deg);
+  -webkit-animation: rotate-29 2s linear infinite 5.8s;
+          animation: rotate-29 2s linear infinite 5.8s;
+}
+@-webkit-keyframes rotate-29 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-29 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(30) {
+  margin-left: -150px;
+  transform: rotate(-9deg);
+  -webkit-animation: rotate-30 2s linear infinite 6s;
+          animation: rotate-30 2s linear infinite 6s;
+}
+@-webkit-keyframes rotate-30 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-30 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+
+.aura:nth-child(31) {
+  margin-left: -155px;
+  transform: rotate(-9.8deg);
+  -webkit-animation: rotate-31 2s linear infinite 6.2s;
+          animation: rotate-31 2s linear infinite 6.2s;
+}
+@-webkit-keyframes rotate-31 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
+@keyframes rotate-31 {
+  from {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 0deg);
+  }
+  to {
+    transform: rotate(0deg) rotate3d(1, 0.5, 1, 360deg);
+  }
+}
